@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "", // Only needed if not using a custom domain
+  assetPrefix: "/",
   images: {
     unoptimized: true, // For static export
   },
